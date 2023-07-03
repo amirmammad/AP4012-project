@@ -34,7 +34,7 @@ border-radius:5px;</string>
      <rect>
       <x>35</x>
       <y>105</y>
-      <width>311</width>
+      <width>310</width>
       <height>45</height>
      </rect>
     </property>
@@ -59,7 +59,7 @@ padding-bottom:2px;</string>
      <rect>
       <x>35</x>
       <y>175</y>
-      <width>311</width>
+      <width>310</width>
       <height>45</height>
      </rect>
     </property>
@@ -171,10 +171,10 @@ padding-bottom:2px;</string>
    <widget class="QLabel" name="login_question">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>35</x>
       <y>300</y>
-      <width>171</width>
-      <height>16</height>
+      <width>191</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="font">
@@ -189,9 +189,9 @@ padding-bottom:2px;</string>
    <widget class="QPushButton" name="login_button">
     <property name="geometry">
      <rect>
-      <x>220</x>
+      <x>234</x>
       <y>295</y>
-      <width>120</width>
+      <width>110</width>
       <height>30</height>
      </rect>
     </property>
