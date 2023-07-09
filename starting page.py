@@ -29,6 +29,7 @@ class LoginPage(QDialog):
             self.logo.setText('!')
     
     def go_signup(self):
+        sleep(0.2)
         widget.setCurrentIndex(1)
 
 class SignupPage(QDialog):
@@ -54,6 +55,7 @@ class SignupPage(QDialog):
             self.login_question.setText("signed up successfully, so")
 
     def go_login(self):
+        sleep(0.2)
         widget.setCurrentIndex(0)
 
 
@@ -65,8 +67,8 @@ if __name__ == "__main__":
     widget.addWidget(login_page)
     widget.addWidget(signup_page)
     widget.setCurrentIndex(0)
-    widget.setFixedHeight(380)
-    widget.setFixedWidth(720)
+    widget.setFixedHeight(809)
+    widget.setFixedWidth(1120)
     widget.show()
 
     app.exec_()
