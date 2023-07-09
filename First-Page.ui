@@ -45,7 +45,7 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="tv_button">
        <property name="font">
         <font>
          <family>Georgia</family>
@@ -61,7 +61,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_3">
+      <widget class="QPushButton" name="motorcycle_button">
        <property name="font">
         <font>
          <family>Georgia</family>
@@ -77,7 +77,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_6">
+      <widget class="QPushButton" name="audiosystem_button">
        <property name="font">
         <font>
          <family>Georgia</family>
@@ -93,7 +93,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_5">
+      <widget class="QPushButton" name="laptop_button">
        <property name="font">
         <font>
          <family>Georgia</family>
@@ -109,7 +109,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_4">
+      <widget class="QPushButton" name="mobile_button">
        <property name="font">
         <font>
          <family>Georgia</family>
@@ -127,7 +127,7 @@
     </layout>
    </widget>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
+  <widget class="QLineEdit" name="search_line">
    <property name="geometry">
     <rect>
      <x>390</x>
@@ -140,26 +140,7 @@
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>450</x>
-     <y>420</y>
-     <width>241</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Georgia</family>
-     <pointsize>12</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>مقایسه قیمت بین محصولات</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="picture">
    <property name="geometry">
     <rect>
      <x>541</x>
@@ -175,7 +156,7 @@
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="label_3">
+  <widget class="QLabel" name="black_torob">
    <property name="geometry">
     <rect>
      <x>541</x>
@@ -215,16 +196,76 @@
    <property name="styleSheet">
     <string notr="true">baclground-color:rgb(214, 214, 214)</string>
    </property>
+   <widget class="QLabel" name="byword">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>340</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>مقایسه قیمت بین محصولات</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="connection">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>580</y>
+      <width>491</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Vazir</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>از اتصال به اینترنت مطمئن شوید</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="vpn">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>650</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Vazir</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>به فیلترشکن متصل نباشید</string>
+    </property>
+   </widget>
   </widget>
   <zorder>widget</zorder>
-  <zorder>label_3</zorder>
-  <zorder>lineEdit</zorder>
-  <zorder>label</zorder>
+  <zorder>black_torob</zorder>
+  <zorder>search_line</zorder>
   <zorder>groupBox</zorder>
-  <zorder>label_2</zorder>
+  <zorder>picture</zorder>
  </widget>
  <resources>
-  <include location="st.qrc"/>
+  <include location="../../../../Desktop/Python/Project/st.qrc"/>
  </resources>
  <connections/>
 </ui>

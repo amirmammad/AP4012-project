@@ -4,16 +4,16 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 
 
-def search(target, type):
+def search_sheipur(target, type):
     '''this function gets a target and type of the product and
     returns a list of tuples that each tuple contains a caption, a price and a link'''
-    options = webdriver.ChromeOptions()
+    options = webdriver.EdgeOptions()
     options.add_argument("--start-maximized")
     #options.add_argument("--headless")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option('useAutomationExtension', False)
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Edge(options=options)
     driver.get('https://www.sheypoor.com/')
     sleep(2)
     if type == 'mobile':
@@ -71,6 +71,4 @@ def search(target, type):
         if len(results) == 20:
             break
     return results
-
-
-print(search('suzuki', 'motorcycle'))
+print(search_sheipur("legion 5", 'laptop'))

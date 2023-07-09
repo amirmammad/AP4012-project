@@ -100,3 +100,4 @@ def search(target, type):
         if len(results) == 20:
             break
     return results
+print(search("a52", 'mobile'))

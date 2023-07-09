@@ -31,7 +31,7 @@
    <property name="flat">
     <bool>true</bool>
    </property>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="head">
     <property name="geometry">
      <rect>
       <x>490</x>
@@ -53,7 +53,7 @@
     </property>
    </widget>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="back_to_main_page_button">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -71,7 +71,7 @@
     <string>بازگشت به صفحه اصلی</string>
    </property>
   </widget>
-  <widget class="QTableWidget" name="tableWidget">
+  <widget class="QTableWidget" name="digi_table">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -184,7 +184,7 @@
     </property>
    </column>
   </widget>
-  <widget class="QTableWidget" name="tableWidget_2">
+  <widget class="QTableWidget" name="divar_table">
    <property name="geometry">
     <rect>
      <x>380</x>
@@ -297,7 +297,7 @@
     </property>
    </column>
   </widget>
-  <widget class="QTableWidget" name="tableWidget_3">
+  <widget class="QTableWidget" name="sheipur_table">
    <property name="geometry">
     <rect>
      <x>750</x>
@@ -410,7 +410,7 @@
     </property>
    </column>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="digikala">
    <property name="geometry">
     <rect>
      <x>140</x>
@@ -431,7 +431,7 @@
     <string>دیجی کالا</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="divar">
    <property name="geometry">
     <rect>
      <x>540</x>
@@ -452,7 +452,7 @@
     <string>دیوار</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_3">
+  <widget class="QLabel" name="sheipur">
    <property name="geometry">
     <rect>
      <x>910</x>
@@ -497,7 +497,7 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_2">
     <item>
-     <widget class="QPushButton" name="pushButton_9">
+     <widget class="QPushButton" name="comparison_button">
       <property name="font">
        <font>
         <family>Georgia</family>
@@ -509,19 +509,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton_8">
-      <property name="font">
-       <font>
-        <family>Georgia</family>
-       </font>
-      </property>
-      <property name="text">
-       <string>جستجو</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pushButton_7">
+     <widget class="QPushButton" name="favorites_button">
       <property name="font">
        <font>
         <family>Georgia</family>
@@ -536,14 +524,14 @@
   </widget>
   <zorder>widget</zorder>
   <zorder>layoutWidget</zorder>
-  <zorder>pushButton</zorder>
+  <zorder>back_to_main_page_button</zorder>
   <zorder>groupBox</zorder>
-  <zorder>tableWidget</zorder>
-  <zorder>tableWidget_2</zorder>
-  <zorder>tableWidget_3</zorder>
-  <zorder>label</zorder>
-  <zorder>label_2</zorder>
-  <zorder>label_3</zorder>
+  <zorder>digi_table</zorder>
+  <zorder>divar_table</zorder>
+  <zorder>sheipur_table</zorder>
+  <zorder>digikala</zorder>
+  <zorder>divar</zorder>
+  <zorder>sheipur</zorder>
  </widget>
  <resources/>
  <connections/>
